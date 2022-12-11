@@ -1,0 +1,11 @@
+// assets/style/functions.scss
+
+// Get the difference between 2 numbers.
+@function minus($param1, $param2) {
+  @return $param1 - $param2;
+}
+
+// Get the sum of 2 numbers.
+@function add($param1, $param2) {
+  @return $param1+$param2;
+}

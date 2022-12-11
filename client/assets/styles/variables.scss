@@ -1,0 +1,103 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
+*/
+
+$primary: #010933;
+$white: #fff;
+$grey: #898484;
+$yellow: #FACF0F;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $yellow;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn {
+  background: $yellow;
+  color: $primary;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform .3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  color: $primary;
+}
+
+.btn--bg {
+  padding: 1rem 5rem;
+  font-size: 1rem;
+}
+
+.btn--med {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+}
+
+.btn--theme {
+  background: $yellow;
+  color: $primary;
+}
+
+.btn--theme-inv {
+  color: $primary;
+  background: $yellow;
+  border: 2px solid $primary;
+  box-shadow: none;
+  padding: calc(1.5rem - 2px) calc(5rem - 2px);
+}
