@@ -4,7 +4,9 @@
       <h2 class="title">Blog Posts</h2>
       <div class="yellow-line"></div>
     </section>
-    <section class="blogs__cards-container">
+    <section
+      class="blogs__cards-container"
+    >
       <blog-cards
         v-for="blog in blogs"
         :key="blog.title"

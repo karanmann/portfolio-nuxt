@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-card">
+  <div v-animate-on-scroll class="blog-card">
     <img :src="image" :alt="title" class="blog-card__image" />
     <div class="blog-card__description">
       <h3 class="blog-card__description-title">{{ title }}</h3>
@@ -72,5 +72,16 @@ export default {
     transform: translateY(-3px);
     transition: 0.3s ease-in-out;
   }
+}
+
+.before-enter {
+  opacity: 0;
+  transform: scale(.5) rotateZ(-25deg);
+  transition: all 1s ease-out
+}
+
+.enter {
+  opacity: 1;
+  transform: scale(1) rotateZ(0deg);
 }
 </style>
