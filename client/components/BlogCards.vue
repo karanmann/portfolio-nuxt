@@ -22,7 +22,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -83,5 +83,6 @@ export default {
 .enter {
   opacity: 1;
   transform: scale(1) rotateZ(0deg);
+  transition: all 1s ease-out
 }
 </style>
