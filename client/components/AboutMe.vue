@@ -1,0 +1,100 @@
+<template>
+  <div id="aboutme" class="about-me">
+    <section class="about-me__top-container flex-center">
+      <h2 class="title">About Me</h2>
+      <div class="yellow-line"></div>
+    </section>
+    <p class="paragraph">
+      Here you will find more information about me, what I do, and my current
+      skills mostly in terms of programming and technology.
+    </p>
+    <section class="about-me__bottom-container">
+      <div class="about-me__bottom-container-left">
+        <h3 class="secondary-title">Get to know me!</h3>
+        <div class="about-me__bottom-container-left-text">
+          <p class="paragraph">
+            I'm a <b>Frontend Web Developer</b> building the Front-end of
+            Websites and Web Applications that leads to the success of the
+            overall product. Check out some of my work in the
+            <a href=""><b>Projects</b></a> section.
+          </p>
+          <p class="paragraph">
+            I also like sharing content related to the stuff that I have learned
+            over the years in <b>Web Development</b> so it can help other people
+            of the Dev Community. Feel free to Connect or Follow me on my
+            <a href=""><b>LinkedIn</b></a>
+            where I post useful content related to Web Development and
+            Programming
+          </p>
+          <p class="paragraph">
+            I'm open to <b>Job opportunities</b> where I can contribute, learn
+            and grow. If you have a good opportunity that matches my skills and
+            experience then don't hesitate to <b>contact</b> me.
+          </p>
+        </div>
+        <div class="home-hero__cta flex-center">
+          <a href="#contact-me">
+            <button class="btn btn--med">contact</button>
+          </a>
+        </div>
+      </div>
+      <div class="about-me__bottom-container-right">
+        <h3 class="secondary-title">My Skills</h3>
+        <div class="about-me__bottom-container-right-pills">
+          <p
+            v-for="(skill, index) in skills"
+            :key="index"
+            class="grey-pill paragraph-small"
+          >
+            {{ skill }}
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      skills: [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'React',
+        'Next',
+        'Vue',
+        'Nuxt',
+        'Phaser',
+        'SASS',
+        'Styled Components',
+        'GIT',
+        'Github',
+        'Responsive Design',
+        'SEO',
+        'Terminal',
+        'Node',
+        'Express Basics',
+        'MongoDB Basics'
+      ]
+    }
+  }
+}
+</script>
+
+<style lang="scss">
+.about-me {
+  background-color: $background-grey;
+
+  .about-me__bottom-container-left-text > .paragraph {
+    margin: 1rem 0rem;
+  }
+
+  .about-me__bottom-container-right-pills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+</style>

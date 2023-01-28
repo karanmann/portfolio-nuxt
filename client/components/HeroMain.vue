@@ -1,11 +1,12 @@
 <template>
-  <section class="home-hero">
-    <div class="home-hero__content">
+  <section id="home" class="home-hero flex-center">
+    <div class="home-hero__content flex-center">
       <h1 class="heading-primary">Hey, I'm Karan Mann.</h1>
       <div class="home-hero__info">
         <p class="text-primary">
-          A Frontend focused Web Developer building the Frontend of Websites
-          and Web Applications that leads to the success of the overall product.
+          I am a frontend developer with a passion for coding, solving
+          problems and to create awesome and meaningful products for
+          people to love ❤️. I also have a background in culinary arts 👨‍🍳."
         </p>
       </div>
       <div class="home-hero__cta">
@@ -14,18 +15,33 @@
     </div>
     <div class="home-hero__socials">
       <div title="Github" class="home-hero__social">
-        <a  href="#" class="home-hero__social-icon-link">
-          <img title="Github" src="../assets/images/icons/github-ico.png" alt="icon" class="home-hero__social-icon" />
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            title="Github"
+            src="../assets/images/icons/github-ico.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
         </a>
       </div>
-      <div  class="home-hero__social">
-        <a  href="#" class="home-hero__social-icon-link">
-          <img title="Instagram" src="../assets/images/icons/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            title="Instagram"
+            src="../assets/images/icons/insta-ico.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
         </a>
       </div>
-      <div  class="home-hero__social">
-        <a  href="#" class="home-hero__social-icon-link">
-          <img title="LinkedIn" src="../assets/images/icons/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />
+      <div class="home-hero__social">
+        <a href="#" class="home-hero__social-icon-link">
+          <img
+            title="LinkedIn"
+            src="../assets/images/icons/linkedin-ico.png"
+            alt="icon"
+            class="home-hero__social-icon"
+          />
         </a>
       </div>
     </div>
@@ -35,30 +51,27 @@
   </section>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style lang="scss">
 .home-hero {
   color: $primary;
-  background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url('../assets/images/svg/common-bg.svg');
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url('../assets/images/svg/common-bg.svg');
   background-position: center;
   background-repeat: repeat;
   height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
 
   .home-hero__content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
     color: $primary;
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     text-align: center;
-    width: 100%;
+    width: 90%;
     line-height: 1.6;
 
     .heading-primary {
@@ -67,7 +80,7 @@
     }
 
     .home-hero__info {
-      width: 80vw
+      width: 80vw;
     }
   }
 
@@ -83,6 +96,11 @@
     justify-content: space-around;
     padding: 10px;
     background: $yellow;
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+      display: flex;
+    }
 
     .home-hero__social {
       .home-hero__social-icon-link {
@@ -90,17 +108,15 @@
           height: 3rem;
           width: 3rem;
           padding: 5px;
+          border-radius: 50%;
         }
         img:hover {
-          border-radius: 50%;
           box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
-          transition: 0.5s;
+          transition: 0.3s ease-in;
         }
       }
     }
   }
-
-  
 
   .home-hero__mouse-scroll-icon {
     position: absolute;
