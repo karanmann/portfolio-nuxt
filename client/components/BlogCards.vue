@@ -44,24 +44,23 @@ export default {
     padding: 1rem 0;
     gap: 1rem;
 
-
     .blog-card__description-link {
       position: absolute;
       right: 10px;
       bottom: 10px;
       button {
         background: none;
-        border: 2px solid $orange;
+        border: 1px solid $yellow;
         font-weight: 700;
         font-size: 0.8rem;
         line-height: 1;
         margin: 0.5em;
         padding: 1em 2em;
         transition: 0.2s ease-in;
-        box-shadow: 0.3em 0.3em 0 0 $orange, inset 0.3em 0.3em 0 0 $orange;
+        box-shadow: 0.3em 0.3em 0 0 $yellow, inset 0.3em 0.3em 0 0 $yellow;
         &:hover,
         &:focus {
-          box-shadow: 0 0 0 0 $orange, inset 6em 3.5em 0 0 $orange;
+          box-shadow: 0 0 0 0 $yellow, inset 6em 3.5em 0 0 $yellow;
         }
       }
     }
