@@ -84,6 +84,11 @@ export default {
 <style lang="scss">
 .about-me {
   background-color: $background-grey;
+  padding: 7rem 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   .about-me__bottom-container-left-text > .paragraph {
     margin: 1rem 0rem;
@@ -95,5 +100,5 @@ export default {
     flex-wrap: wrap;
   }
 }
-
-</style>px
+</style>
+px

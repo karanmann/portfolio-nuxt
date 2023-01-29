@@ -30,10 +30,11 @@ export default {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 1rem;
   opacity: 0.9;
-  height: 450px;
+  height: 400px;
+  width: 320px;
 
   .blog-card__image {
-    height: 50%;
+    height: 40%;
   }
 
   .blog-card__description {
@@ -47,7 +48,7 @@ export default {
     .blog-card__description-link {
       position: absolute;
       right: 10px;
-      bottom: 10px;
+      bottom: -40px;
       button {
         background: none;
         border: 1px solid $yellow;
@@ -76,13 +77,13 @@ export default {
 
 .before-enter {
   opacity: 0;
-  transform: scale(.5) rotateZ(-25deg);
-  transition: all 1s ease-out
+  transform: scale(0.5) rotateZ(-25deg);
+  transition: all 1s ease-out;
 }
 
 .enter {
   opacity: 1;
   transform: scale(1) rotateZ(0deg);
-  transition: all 1s ease-out
+  transition: all 1s ease-out;
 }
 </style>
