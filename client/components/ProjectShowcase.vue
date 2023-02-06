@@ -9,19 +9,23 @@
       </p>
     </section>
     <section class="projects__cards-container">
-      <div v-for="project in projects" :key="project.id" class="projects__project-card">
-        <img :src="project.imageDesktop.png" alt="project.title" />
-        <div>
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.desc }}</p>
-          <!-- <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
+      <!-- <div v-for="project in projects" :key="project.id" class="projects__project-card">
+        <div v-if="project.featured" class="projects__featured-card">
+          <img :src="project.imageDesktop.png" alt="project.title" />
+          <div>
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.desc }}</p>
+            <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
             <button>Know More</button>
-          </a> -->
-          <nuxt-link to="/projects/`${project.id}`">
-            <button>Know More</button>
-          </nuxt-link>
+          </a>
+            <nuxt-link to="/projects/`${project.id}`">
+              <button>Know More</button>
+            </nuxt-link>
+          </div>
         </div>
-      </div>
+      </div> -->
+      <FeaturedCard :featured-projects="featuredProjects" />
+      <OtherProjects :other-projects="otherProjects" />
     </section>
   </div>
 </template>
@@ -29,10 +33,15 @@
 <script>
 import projectsData from "@/data/projects.json";
 
+const myfeaturedProjects = projectsData.filter((myProjects) => myProjects.featured);
+const myotherProjects = projectsData.filter((myProjects) => !myProjects.featured);
+
 export default {
   data() {
     return {
       projects: projectsData,
+      featuredProjects: myfeaturedProjects,
+      otherProjects: myotherProjects,
     };
   },
 };
@@ -65,18 +74,33 @@ export default {
       width: 20rem;
       background-color: #f0f0f0;
 
-      img {
-        width: 100%;
+      .projects__featured-card {
+        img {
+          width: 100%;
+        }
       }
     }
 
-    @media screen and (min-width: $desktop) {
+    @media (min-width: $tablet) {
+      .projects__project-card {
+        flex-direction: row;
+        width: 90%;
+        .projects__featured-card {
+          img {
+            width: 10rem;
+          }
+        }
+      }
+    }
+
+    @media (min-width: $desktop) {
       .projects__project-card {
         flex-direction: row;
         width: 70%;
-
-        img {
-          width: 20rem;
+        .projects__featured-card {
+          img {
+            width: 20rem;
+          }
         }
       }
     }
