@@ -9,21 +9,6 @@
       </p>
     </section>
     <section class="projects__cards-container">
-      <!-- <div v-for="project in projects" :key="project.id" class="projects__project-card">
-        <div v-if="project.featured" class="projects__featured-card">
-          <img :src="project.imageDesktop.png" alt="project.title" />
-          <div>
-            <h3>{{ project.title }}</h3>
-            <p>{{ project.desc }}</p>
-            <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
-            <button>Know More</button>
-          </a>
-            <nuxt-link to="/projects/`${project.id}`">
-              <button>Know More</button>
-            </nuxt-link>
-          </div>
-        </div>
-      </div> -->
       <FeaturedCard :featured-projects="featuredProjects" />
       <OtherProjects :other-projects="otherProjects" />
     </section>

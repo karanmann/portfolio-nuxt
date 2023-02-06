@@ -1,16 +1,20 @@
 <template>
-  <div>
-    <div v-for="project in featuredProjects" :key="project.id">
-      <p>{{ project.id }}</p>
+  <section>
+    <div>
+      <div>
+        <div v-for="project in featuredProjects" :key="project.id">
+          <p>{{ project.id }}</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
   props: {
     featuredProjects: {
-      type: Object,
+      type: Array,
       required: true,
     },
   },

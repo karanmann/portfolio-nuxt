@@ -1,16 +1,16 @@
 <template>
-  <div>
+  <section>
     <div v-for="project in otherProjects" :key="project.id">
       <p>{{ project.id }}</p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
   props: {
     otherProjects: {
-      type: Object,
+      type: Array,
       required: true,
     },
   },
