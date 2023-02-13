@@ -8,10 +8,10 @@
         each project containing its own case study
       </p>
     </section>
-    <section class="projects__cards-container">
-      <FeaturedCard :featured-projects="featuredProjects" />
-      <OtherProjects :other-projects="otherProjects" />
-    </section>
+    <div class="projects__cards-container">
+      <featured-cards :featured-projects="featuredProjects" />
+      <other-projects :other-projects="otherProjects" />
+    </div>
   </div>
 </template>
 
@@ -42,53 +42,8 @@ export default {
 
   .projects__cards-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     gap: 2rem;
-
-    .projects__project-card {
-      display: flex;
-      flex-direction: column;
-      background: lighten($card_white, 10%);
-      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-      padding: 1rem;
-      opacity: 0.9;
-      gap: 1rem;
-      width: 20rem;
-      background-color: #f0f0f0;
-
-      .projects__featured-card {
-        img {
-          width: 100%;
-        }
-      }
-    }
-
-    @media (min-width: $tablet) {
-      .projects__project-card {
-        flex-direction: row;
-        width: 90%;
-        .projects__featured-card {
-          img {
-            width: 10rem;
-          }
-        }
-      }
-    }
-
-    @media (min-width: $desktop) {
-      .projects__project-card {
-        flex-direction: row;
-        width: 70%;
-        .projects__featured-card {
-          img {
-            width: 20rem;
-          }
-        }
-      }
-    }
   }
 }
 </style>

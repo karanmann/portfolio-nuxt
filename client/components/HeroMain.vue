@@ -1,12 +1,12 @@
 <template>
   <section id="home" class="home-hero flex-center">
-    <div class="home-hero__content flex-center">
+    <div class="home-hero__content flex-center" v-animate-on-scroll>
       <h1 class="heading-primary">Hey, I'm Karan Mann.</h1>
       <div class="home-hero__info">
         <p class="text-primary">
-          I am a frontend developer with a passion for coding, solving
-          problems and to create awesome and meaningful products for
-          people to love ❤️. I also have a background in culinary arts 👨‍🍳."
+          I am a frontend developer with a passion for coding, solving problems and to
+          create awesome and meaningful products for people to love ❤️. I also have a
+          background in culinary arts 👨‍🍳."
         </p>
       </div>
       <div class="home-hero__cta">
@@ -15,37 +15,43 @@
     </div>
     <div class="home-hero__socials">
       <div title="Github" class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
+        <a href="https://github.com/karanmann" class="home-hero__social-icon-link">
           <img
             title="Github"
-            src="../assets/images/icons/github-ico.png"
+            src="../assets/icons/github-ico.png"
             alt="icon"
             class="home-hero__social-icon"
           />
         </a>
       </div>
       <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
+        <a
+          href="https://www.instagram.com/frontendchef/"
+          class="home-hero__social-icon-link"
+        >
           <img
             title="Instagram"
-            src="../assets/images/icons/insta-ico.png"
+            src="../assets/icons/insta-ico.png"
             alt="icon"
             class="home-hero__social-icon"
           />
         </a>
       </div>
       <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
+        <a
+          href="https://www.linkedin.com/in/karanmann84/"
+          class="home-hero__social-icon-link"
+        >
           <img
             title="LinkedIn"
-            src="../assets/images/icons/linkedin-ico.png"
+            src="../assets/icons/linkedin-ico.png"
             alt="icon"
             class="home-hero__social-icon"
           />
         </a>
       </div>
     </div>
-    <div class="home-hero__mouse-scroll-icon">
+    <div v-animate-on-scroll class="home-hero__mouse-scroll-icon">
       <div class="mouse"></div>
     </div>
   </section>
@@ -61,10 +67,12 @@
       rgba(245, 245, 245, 0.8),
       rgba(245, 245, 245, 0.8)
     ),
-    url('../assets/images/svg/common-bg.svg');
+    url("../assets/images/svg/common-bg.svg");
   background-position: center;
   background-repeat: repeat;
-  height: 90vh;
+  background-attachment: fixed;
+
+  height: 100vh;
   position: relative;
 
   .home-hero__content {
@@ -134,7 +142,7 @@
     }
 
     .mouse::before {
-      content: '';
+      content: "";
       width: 5px;
       height: 5px;
       position: absolute;

@@ -3,16 +3,62 @@
     <section class="flex-center">
       <h2 class="title">Contact Me</h2>
       <div class="yellow-line"></div>
-      <p>
-        Feel free to Contact me by submitting the form below and I will get back
-        to you as soon as possible
+      <p class="paragraph">
+        Feel free to Contact me regarding any projects or opportunities you may have or
+        lets just grab a coffee and talk about code.
       </p>
+      <div class="contact-me__icon-container" v-animate-on-scroll>
+        <a href="https://github.com/karanmann" class="contact-me__icon">
+          <img
+            src="../assets/icons/github-color.png"
+            alt="Github Link"
+            height="70"
+            width="70"
+          />
+        </a>
+        <a href="https://www.instagram.com/frontendchef/" class="contact-me__icon">
+          <img
+            src="../assets/icons/instagram-color.png"
+            alt="Instagram Link"
+            height="70"
+            width="70"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/karanmann84/" class="contact-me__icon">
+          <img
+            src="../assets/icons/linkedin-color.png"
+            alt="Linkedin Link"
+            height="70"
+            width="70"
+          />
+        </a>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.contact-me {
+  .contact-me__icon-container {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+
+    .contact-me__icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+</style>

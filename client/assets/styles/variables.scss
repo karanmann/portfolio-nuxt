@@ -20,6 +20,7 @@ $dark-grey: #383737;
 $grey: #898484;
 $light-grey:#c0bdbd;
 $yellow: #FACF0F;
+$yellow-maize: #FDE74C;
 $background-grey: #FAFAFA;
 
 $small: 480px;
@@ -44,12 +45,30 @@ $grid-gutter: 31px;
 
 html {
   scroll-behavior: smooth;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  // ::-webkit-scrollbar-track {
+  //   box-shadow: inset 0 0 5px grey;
+  //   border-radius: 10px;
+  // }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $yellow;
+    // border-radius: 10px;
+  }
 }
 
 body {
   // font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
+  position: relative;
 }
 
 img {

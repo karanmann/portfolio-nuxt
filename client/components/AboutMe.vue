@@ -30,11 +30,6 @@
             don't hesitate to <b>contact</b> me.
           </p>
         </div>
-        <div class="home-hero__cta flex-center">
-          <a href="#contact-me">
-            <button class="btn btn--med">contact</button>
-          </a>
-        </div>
       </div>
       <div class="about-me__bottom-container-right">
         <h3 class="secondary-title">My Skills</h3>
@@ -49,33 +44,20 @@
         </div>
       </div>
     </section>
+    <div class="home-hero__cta flex-center">
+      <a href="#contact-me">
+        <button class="btn btn--med">contact me</button>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
+import skillsData from "../data/skills.json";
 export default {
   data() {
     return {
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Next",
-        "Vue",
-        "Nuxt",
-        "Phaser",
-        "SASS",
-        "Styled Components",
-        "GIT",
-        "Github",
-        "Responsive Design",
-        "SEO",
-        "Terminal",
-        "Node",
-        "Express Basics",
-        "MongoDB Basics",
-      ],
+      skills: skillsData,
     };
   },
 };
@@ -90,6 +72,16 @@ export default {
   align-items: center;
   justify-content: center;
 
+  .about-me__bottom-container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+    @media (min-width: $desktop) {
+      flex-direction: row;
+    }
+  }
+
   .about-me__bottom-container-left-text > .paragraph {
     margin: 1rem 0rem;
   }
@@ -101,4 +93,3 @@ export default {
   }
 }
 </style>
-px

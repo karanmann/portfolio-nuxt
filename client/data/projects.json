@@ -10,6 +10,7 @@
       "jpg": "/images/projects/mobile/oxfam.jpeg",
       "png": "/images/projects/mobile/oxfam.png"
     },
+    "videoUrl": "",
     "title": "Oxfam - Kortare Liv",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
@@ -21,6 +22,25 @@
     "id": 1002,
     "featured": true,
     "imageDesktop": {
+      "jpg": "/images/projects/desktop/netflix.jpeg",
+      "png": "/images/projects/desktop/netflix.png"
+    },
+    "imageMobile": {
+      "jpg": "/images/projects/mobile/netflix.jpeg",
+      "png": "/images/projects/mobile/netflix.png"
+    },
+    "videoUrl": "",
+    "title": "Netflix Clone",
+    "desc":
+      "Did you know that some food that are healthy for you are bad for others.",
+    "techUsed": ["Next.js", "SASS", "Localisation (l18n)"],
+    "githubLink": "",
+    "liveLink": "https://netflix-clone-hazel-pi.vercel.app/"
+  },
+  {
+    "id": 1003,
+    "featured": true,
+    "imageDesktop": {
       "jpg": "/images/projects/desktop/starwars.jpeg",
       "png": "/images/projects/desktop/starwars.png"
     },
@@ -28,15 +48,15 @@
       "jpg": "/images/projects/desktop/starwars.jpeg",
       "png": "/images/projects/desktop/starwars.png"
     },
+    "videoUrl": "",
     "title": "Star Wars - Trust the process",
-    "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
+    "desc": "Star wars inspired Space shooter game.",
     "techUsed": ["Phaser.JS", "Object Oriented Programming"],
     "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "liveLink": "https://starwars-phaser.netlify.app"
   },
   {
-    "id": 1003,
+    "id": 1004,
     "featured": true,
     "imageDesktop": {
       "jpg": "/images/projects/desktop/50days.jpeg",
@@ -46,17 +66,17 @@
       "jpg": "/images/projects/desktop/50days.jpeg",
       "png": "/images/projects/desktop/50days.png"
     },
-
+    "videoUrl": "",
     "title": "50 Days of Code",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
+      "I spend 50 days of coding everyday. Some were done in minutes and some in days.",
+    "techUsed": ["HTML", "CSS", "Javascript", "Styled Components", "React", "SCSS"],
     "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "liveLink": "https://50daysofcode.netlify.app"
   },
   {
-    "id": 1004,
-    "featured": true,
+    "id": 1005,
+    "featured": false,
     "imageDesktop": {
       "jpg": "/images/projects/desktop/foodex.jpeg",
       "png": "/images/projects/desktop/foodex.png"
@@ -65,33 +85,35 @@
       "jpg": "/images/projects/mobile/foodex.jpeg",
       "png": "/images/projects/mobile/foodex.png"
     },
-    "title": "Oxfam - Kortare Liv",
+    "videoUrl": "",
+    "title": "Foodex",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
+      "A Food-lovers paradise.",
+    "techUsed": ["HTML", "CSS", "Javascript"],
     "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
-  },
-  {
-    "id": 1005,
-    "featured": false,
-    "imageDesktop": {
-      "jpg": "/images/projects/desktop/edamam.jpeg",
-      "png": "/images/projects/desktop/edamam.png"
-    },
-    "imageMobile": {
-      "jpg": "/images/projects/mobile/edamam.jpeg",
-      "png": "/images/projects/mobile/edamam.png"
-    },
-    "title": "mb2",
-    "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "liveLink": "https://project-foodex.netlify.app"
   },
   {
     "id": 1006,
+    "featured": true,
+    "imageDesktop": {
+      "jpg": "/images/projects/desktop/mb2.jpeg",
+      "png": "/images/projects/desktop/mb2.png"
+    },
+    "imageMobile": {
+      "jpg": "/images/projects/mobile/mb2.jpeg",
+      "png": "/images/projects/mobile/mb2.png"
+    },
+    "videoUrl": "",
+    "title": "#MB 2",
+    "desc":
+      "Did you know that some food that are healthy for you are bad for others.",
+    "techUsed": ["Next.js", "SASS", "Stripe", "Strapi CMS", "Heroku", "Framer Motion"],
+    "githubLink": "",
+    "liveLink": "https://kortareliv.se/"
+  },
+  {
+    "id": 1007,
     "featured": false,
     "imageDesktop": {
       "jpg": "/images/projects/desktop/github.jpeg",
@@ -101,25 +123,8 @@
       "jpg": "/images/projects/mobile/github.jpeg",
       "png": "/images/projects/mobile/github.png"
     },
-    "title": "Oxfam - Kortare Liv",
-    "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
-  },
-  {
-    "id": 1007,
-    "featured": false,
-    "imageDesktop": {
-      "jpg": "/images/projects/desktop/edamam.jpeg",
-      "png": "/images/projects/desktop/edamam.png"
-    },
-    "imageMobile": {
-      "jpg": "/images/projects/mobile/edamam.jpeg",
-      "png": "/images/projects/mobile/edamam.png"
-    },
-    "title": "Oxfam - Kortare Liv",
+    "videoUrl": "",
+    "title": "Github Tracker",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
     "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
@@ -130,6 +135,25 @@
     "id": 1008,
     "featured": false,
     "imageDesktop": {
+      "jpg": "/images/projects/desktop/edamam.jpeg",
+      "png": "/images/projects/desktop/edamam.png"
+    },
+    "imageMobile": {
+      "jpg": "/images/projects/mobile/edamam.jpeg",
+      "png": "/images/projects/mobile/edamam.png"
+    },
+    "videoUrl": "",
+    "title": "Oxfam - Kortare Liv",
+    "desc":
+      "Did you know that some food that are healthy for you are bad for others.",
+    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
+    "githubLink": "",
+    "liveLink": "https://kortareliv.se/"
+  },
+  {
+    "id": 1009,
+    "featured": false,
+    "imageDesktop": {
       "jpg": "/images/projects/desktop/pizzabot.jpeg",
       "png": "/images/projects/desktop/pizzabot.png"
     },
@@ -137,6 +161,7 @@
       "jpg": "/images/projects/mobile/pizzabot.jpeg",
       "png": "/images/projects/mobile/pizzabot.png"
     },
+    "videoUrl": "",
     "title": "Oxfam - Kortare Liv",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",

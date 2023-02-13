@@ -1,14 +1,14 @@
 <template>
   <nav class="navbar">
     <a href="#" class="logo">
-      <img src="../assets/images/portfolio/me.png" alt="karan mann">
+      <img src="../assets/images/portfolio/me.png" alt="karan mann" />
       <h2>KARAN MANN</h2>
     </a>
     <div class="nav-links">
       <a href="#aboutme" rel="noopener noreferrer">About</a>
       <a href="#projects" rel="noopener noreferrer">Projects</a>
       <a href="#blogs" rel="noopener noreferrer">Blogs</a>
-      <a href="#contact" rel="noopener noreferrer">Contact</a>
+      <a href="#contact-me" rel="noopener noreferrer">Contact</a>
     </div>
     <div class="hamburger">
       <div class="menu-toggle">
@@ -26,30 +26,36 @@
           <a href="#blogs" rel="noopener noreferrer">
             <li>Blog Posts</li>
           </a>
-          <a href="#contact" rel="noopener noreferrer">
+          <a href="#contact-me" rel="noopener noreferrer">
             <li>Contacts</li>
           </a>
           <div class="menu__socials">
-            <a href="#" class="home-hero__social-icon-link">
+            <a href="https://github.com/karanmann" class="home-hero__social-icon-link">
               <img
                 title="Github"
-                src="../assets/images/icons/github-ico.png"
+                src="../assets/icons/github-ico.png"
                 alt="icon"
                 class="home-hero__social-icon"
               />
             </a>
-            <a href="#" class="home-hero__social-icon-link">
+            <a
+              href="https://www.instagram.com/frontendchef/"
+              class="home-hero__social-icon-link"
+            >
               <img
                 title="Instagram"
-                src="../assets/images/icons/insta-ico.png"
+                src="../assets/icons/insta-ico.png"
                 alt="icon"
                 class="home-hero__social-icon"
               />
             </a>
-            <a href="#" class="home-hero__social-icon-link">
+            <a
+              href="https://www.linkedin.com/in/karanmann84/"
+              class="home-hero__social-icon-link"
+            >
               <img
                 title="LinkedIn"
-                src="../assets/images/icons/linkedin-ico.png"
+                src="../assets/icons/linkedin-ico.png"
                 alt="icon"
                 class="home-hero__social-icon"
               />
@@ -64,19 +70,22 @@
 <script>
 export default {
   data() {
-    return {}
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style lang="scss">
 .navbar {
+  position: fixed;
+  z-index: 50;
   height: 100px;
   width: 100vw;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 
   .logo {
     display: flex;
@@ -135,22 +144,22 @@ export default {
         opacity: 0;
         z-index: 2;
 
-        &:checked~span:nth-last-child(n) {
+        &:checked ~ span:nth-last-child(n) {
           opacity: 1;
           transform: rotate(45deg) translate(-2px, -1px);
           background: #232323;
         }
 
-        &:checked~span:nth-last-child(3) {
+        &:checked ~ span:nth-last-child(3) {
           opacity: 0;
           transform: rotate(0deg) scale(0.2, 0.2);
         }
 
-        &:checked~span:nth-last-child(2) {
+        &:checked ~ span:nth-last-child(2) {
           transform: rotate(-45deg) translate(-2px, -1px);
         }
 
-        &:checked~ul {
+        &:checked ~ ul {
           transform: none;
         }
       }
@@ -165,7 +174,8 @@ export default {
         border-radius: 3px;
         z-index: 1;
         transform-origin: 4px 1px;
-        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+          background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 
         &::first-child {
           transform-origin: 0% 0%;
@@ -188,7 +198,7 @@ export default {
       list-style-type: none;
       transform-origin: 0% 0%;
       transform: translate(-150%, 0);
-      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
       z-index: 99;
       display: flex;
       flex-direction: column;
