@@ -7,28 +7,6 @@
       class="featured-card"
     >
       <img :src="project.imageDesktop.png" alt="project" class="featured-card__image" />
-      <div class="featured-card__details">
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.desc }}</p>
-        <div class="featured-card__links">
-          <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
-            <img
-              src="../assets/icons/external-link.png"
-              :alt="project.title"
-              height="40"
-              width="40"
-            />
-          </a>
-          <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">
-            <img
-              src="../assets/icons/github-ico.png"
-              :alt="project.title"
-              height="40"
-              width="40"
-            />
-          </a>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -44,47 +22,35 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .featured-card__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 
   .featured-card {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 25rem;
-    background: lighten($yellow-maize, 30%);
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-
-    @media (min-width: $desktop) {
-      flex-direction: row;
-      width: 40rem;
-    }
-
+    width: 100%;
     .featured-card__image {
       width: 100%;
-      @media (min-width: $desktop) {
-        width: 50%;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        transform: translateY(-3px);
+        transition: 0.3s ease-in-out;
       }
     }
 
-    .featured-card__details {
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      gap: 2rem;
+    @media (min-width: $tablet) {
+      width: 48%;
     }
 
-    &:hover {
-      box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-      opacity: 1;
-      transform: translateY(-3px);
-      transition: 0.3s ease-in-out;
+    @media (min-width: $desktop) {
+      width: 43%;
     }
   }
 }

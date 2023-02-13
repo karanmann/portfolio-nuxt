@@ -3,8 +3,8 @@
     <div
       v-for="project in otherProjects"
       :key="project.id"
-      class="other-project__card"
       v-animate-on-scroll
+      class="other-project__card"
     >
       <img
         class="other-project__card-image"
@@ -57,11 +57,9 @@ export default {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  margin-top: 5rem;
 
   .other-project__card {
-    width: 17rem;
-    background: lighten($yellow-maize, 30%);
+    background: $card-grey;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     width: 100%;
 

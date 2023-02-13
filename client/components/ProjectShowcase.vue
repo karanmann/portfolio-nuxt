@@ -10,6 +10,7 @@
     </section>
     <div class="projects__cards-container">
       <featured-cards :featured-projects="featuredProjects" />
+      <h2 class="projects__cards-container-h2">Other Projects</h2>
       <other-projects :other-projects="otherProjects" />
     </div>
   </div>
@@ -43,7 +44,12 @@ export default {
   .projects__cards-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
+
+    .projects__cards-container-h2 {
+      margin-top: 5rem;
+    }
   }
 }
 </style>

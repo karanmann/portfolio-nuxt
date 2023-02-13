@@ -1,6 +1,6 @@
 <template>
   <section id="home" class="home-hero flex-center">
-    <div class="home-hero__content flex-center" v-animate-on-scroll>
+    <div v-animate-on-scroll class="home-hero__content flex-center">
       <h1 class="heading-primary">Hey, I'm Karan Mann.</h1>
       <div class="home-hero__info">
         <p class="text-primary">

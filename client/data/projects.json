@@ -10,12 +10,11 @@
       "jpg": "/images/projects/mobile/oxfam.jpeg",
       "png": "/images/projects/mobile/oxfam.png"
     },
-    "videoUrl": "",
     "title": "Oxfam - Kortare Liv",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
+      "Did you know that some food that are healthy for you could be bad for others.",
+    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)", "Google Analytics", "Google API"],
+    "githubLink": "https://github.com/karanmann/oxfam-kortare-liv",
     "liveLink": "https://kortareliv.se/"
   },
   {
@@ -29,12 +28,11 @@
       "jpg": "/images/projects/mobile/netflix.jpeg",
       "png": "/images/projects/mobile/netflix.png"
     },
-    "videoUrl": "",
     "title": "Netflix Clone",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Next.js", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
+    "techUsed": ["Next.js", "Typescript", "Tailwind CSS", "Firebase Database", "Firebase Authentication"],
+    "githubLink": "https://github.com/karanmann/netflix-clone",
     "liveLink": "https://netflix-clone-hazel-pi.vercel.app/"
   },
   {
@@ -48,16 +46,15 @@
       "jpg": "/images/projects/desktop/starwars.jpeg",
       "png": "/images/projects/desktop/starwars.png"
     },
-    "videoUrl": "",
     "title": "Star Wars - Trust the process",
     "desc": "Star wars inspired Space shooter game.",
-    "techUsed": ["Phaser.JS", "Object Oriented Programming"],
-    "githubLink": "",
+    "techUsed": ["Phaser.JS", "Object Oriented Programming","HTML", "CSS"],
+    "githubLink": "https://github.com/karanmann/project-game-zone",
     "liveLink": "https://starwars-phaser.netlify.app"
   },
   {
     "id": 1004,
-    "featured": true,
+    "featured": false,
     "imageDesktop": {
       "jpg": "/images/projects/desktop/50days.jpeg",
       "png": "/images/projects/desktop/50days.png"
@@ -66,12 +63,11 @@
       "jpg": "/images/projects/desktop/50days.jpeg",
       "png": "/images/projects/desktop/50days.png"
     },
-    "videoUrl": "",
     "title": "50 Days of Code",
     "desc":
       "I spend 50 days of coding everyday. Some were done in minutes and some in days.",
     "techUsed": ["HTML", "CSS", "Javascript", "Styled Components", "React", "SCSS"],
-    "githubLink": "",
+    "githubLink": "https://github.com/karanmann/50-daysofcode-challenge",
     "liveLink": "https://50daysofcode.netlify.app"
   },
   {
@@ -85,12 +81,11 @@
       "jpg": "/images/projects/mobile/foodex.jpeg",
       "png": "/images/projects/mobile/foodex.png"
     },
-    "videoUrl": "",
     "title": "Foodex",
     "desc":
       "A Food-lovers paradise.",
     "techUsed": ["HTML", "CSS", "Javascript"],
-    "githubLink": "",
+    "githubLink": "https://github.com/karanmann/blog-site",
     "liveLink": "https://project-foodex.netlify.app"
   },
   {
@@ -104,13 +99,12 @@
       "jpg": "/images/projects/mobile/mb2.jpeg",
       "png": "/images/projects/mobile/mb2.png"
     },
-    "videoUrl": "",
     "title": "#MB 2",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Next.js", "SASS", "Stripe", "Strapi CMS", "Heroku", "Framer Motion"],
-    "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "techUsed": ["Next.js", "SASS", "Stripe", "Strapi CMS", "Heroku", "Framer Motion", "Auth0 Authentication", "Heroku"],
+    "githubLink": "https://github.com/karanmann/finalproject-hi",
+    "liveLink": "https://mb2.vercel.app/"
   },
   {
     "id": 1007,
@@ -123,13 +117,12 @@
       "jpg": "/images/projects/mobile/github.jpeg",
       "png": "/images/projects/mobile/github.png"
     },
-    "videoUrl": "",
     "title": "Github Tracker",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "techUsed": ["HTML", "CSS", "JavaScript"],
+    "githubLink": "https://github.com/karanmann/github-tracker",
+    "liveLink": "https://gitkaranmann.netlify.app/"
   },
   {
     "id": 1008,
@@ -142,13 +135,12 @@
       "jpg": "/images/projects/mobile/edamam.jpeg",
       "png": "/images/projects/mobile/edamam.png"
     },
-    "videoUrl": "",
-    "title": "Oxfam - Kortare Liv",
+    "title": "Edamam - Recipe Search",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "techUsed": ["HTML", "CSS", "Javascript"],
+    "githubLink": "https://github.com/karanmann/project-food-site",
+    "liveLink": "https://edamam.netlify.app/"
   },
   {
     "id": 1009,
@@ -161,12 +153,28 @@
       "jpg": "/images/projects/mobile/pizzabot.jpeg",
       "png": "/images/projects/mobile/pizzabot.png"
     },
-    "videoUrl": "",
-    "title": "Oxfam - Kortare Liv",
+    "title": "Pizza Bot",
     "desc":
       "Did you know that some food that are healthy for you are bad for others.",
-    "techUsed": ["Nuxt.JS", "SASS", "Localisation (l18n)"],
-    "githubLink": "",
-    "liveLink": "https://kortareliv.se/"
+    "techUsed": ["HTML", "CSS", "Javascript"],
+    "githubLink": "https://github.com/karanmann/project-pizza-bot",
+    "liveLink": "https://pizzabotmilano.netlify.app/"
+  },
+  {
+    "id": 1010,
+    "featured": false,
+    "imageDesktop": {
+      "jpg": "/images/projects/desktop/happythoughts.jpeg",
+      "png": "/images/projects/desktop/happythoughts.png"
+    },
+    "imageMobile": {
+      "jpg": "/images/projects/mobile/happythoughts.jpeg",
+      "png": "/images/projects/mobile/happythoughts.png"
+    },
+    "title": "Happy Thoughts",
+    "desc": "I here have made a Twitter Clone using REACT.js where I can fetch messages posted on Heroku/MongoDB and also post them and add likes to the posts.",
+    "techUsed": ["React.js", "CSS", "Node","Express", "MongoDB", "Heroku"],
+    "githubLink": "https://github.com/karanmann/project-happy-thoughts",
+    "liveLink": "https://cuz-i-am-happy.netlify.app"
   }
 ]

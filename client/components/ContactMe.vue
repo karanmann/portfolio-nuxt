@@ -7,7 +7,7 @@
         Feel free to Contact me regarding any projects or opportunities you may have or
         lets just grab a coffee and talk about code.
       </p>
-      <div class="contact-me__icon-container" v-animate-on-scroll>
+      <div v-animate-on-scroll class="contact-me__icon-container">
         <a href="https://github.com/karanmann" class="contact-me__icon">
           <img
             src="../assets/icons/github-color.png"

@@ -26,7 +26,7 @@ export default {
 .blog-card {
   display: flex;
   flex-direction: column;
-  background: lighten($yellow-maize, 30%);
+  background: $card_white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 1rem;
   opacity: 0.9;
