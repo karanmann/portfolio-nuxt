@@ -20,7 +20,7 @@
             title="Github"
             src="../assets/icons/github-ico.png"
             alt="icon"
-            class="home-hero__social-icons"
+            class="home-hero__social-icon"
           />
         </a>
       </div>
