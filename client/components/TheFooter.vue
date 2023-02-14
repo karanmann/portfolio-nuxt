@@ -1,21 +1,7 @@
 <template>
   <div class="footer flex-center">
     <section class="flex-center">
-      <h2>Karan Mann</h2>
-      <p>
-        I am a frontend developer with a passion for coding and solving problems that
-        matter and to create awesome and meaningful products for people to love ❤️. I also
-        have a background in culinary arts 👨‍🍳."
-      </p>
-    </section>
-    <section>
-      <h2>Social Media</h2>
-      <ul>
-        <li>Github</li>
-        <li>LinkedIn</li>
-        <li>Instagram</li>
-        <li>Medium</li>
-      </ul>
+      <h4>Made with love by - Karan Mann <sup>ⓒ </sup></h4>
     </section>
   </div>
 </template>
@@ -27,5 +13,6 @@ export default {};
 <style lang="scss">
 .footer {
   background: $yellow-maize;
+  padding: 2rem;
 }
 </style>

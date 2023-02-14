@@ -83,7 +83,7 @@
     line-height: 1.6;
 
     .heading-primary {
-      font-size: 2.5;
+      font-size: 4rem;
       text-transform: uppercase;
     }
 

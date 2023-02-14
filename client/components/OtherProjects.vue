@@ -16,21 +16,26 @@
       <div class="other-project__card-details">
         <h3>{{ project.title }}</h3>
         <p>{{ project.desc }}</p>
+        <ul class="card__pills-container">
+          <li v-for="tech in project.techUsed" :key="tech" class="card__pills">
+            {{ tech }}
+          </li>
+        </ul>
         <div class="other-project__links">
           <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
             <img
-              src="../assets/icons/external-link.png"
+              src="../assets/icons/live-ico.png"
               :alt="project.title"
-              height="20"
-              width="20"
+              height="30"
+              width="30"
             />
           </a>
           <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">
             <img
               src="../assets/icons/github-ico.png"
               :alt="project.title"
-              height="20"
-              width="20"
+              height="30"
+              width="30"
             />
           </a>
         </div>
@@ -62,6 +67,7 @@ export default {
     background: $card-grey;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     width: 100%;
+    height: 30rem;
 
     @media (min-width: $tablet) {
       width: 20rem;
@@ -75,7 +81,22 @@ export default {
       padding: 1rem;
       display: flex;
       flex-direction: column;
-      gap: 1rem;
+      justify-content: space-between;
+      height: 55%;
+
+      .other-project__links {
+        text-align: right;
+        margin: 0 1rem;
+        a {
+          margin: 0 0.2rem;
+          img {
+            &:hover {
+              transform: scale(1.3);
+              transition: 0.3s ease-in;
+            }
+          }
+        }
+      }
     }
 
     &:hover {

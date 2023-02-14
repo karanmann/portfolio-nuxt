@@ -4,10 +4,6 @@
     <hero-main />
     <about-me />
     <project-showcase />
-    <div class="save-btn">
-      <button @click="showModal = true">Save</button>
-    </div>
-    <SavedModal v-show="showModal" />
     <blog-posts />
     <contact-me />
     <the-footer />

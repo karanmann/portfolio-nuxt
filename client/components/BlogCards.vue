@@ -30,7 +30,7 @@ export default {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 1rem;
   opacity: 0.9;
-  height: 400px;
+  height: 500px;
   width: 320px;
 
   .blog-card__image {
