@@ -36,6 +36,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxtjs/style-resources',
+    '@nuxtjs/fontawesome',
   ],
 
   styleResources: {

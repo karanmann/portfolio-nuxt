@@ -9,7 +9,7 @@
       <img :src="project.imageDesktop.png" alt="project" class="featured-card__image" />
       <div class="featured-card__desc">
         <h2>{{ project.title }}</h2>
-        <p>{{ project.desc }}</p>
+        <p class="featured-card__desc-p">{{ project.desc }}</p>
         <ul class="card__pills-container">
           <li v-for="tech in project.techUsed" :key="tech" class="card__pills">
             {{ tech }}
@@ -20,16 +20,16 @@
             <img
               src="../assets/icons/live-color.png"
               :alt="project.title"
-              height="40"
-              width="40"
+              height="30"
+              width="30"
             />
           </a>
           <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">
             <img
               src="../assets/icons/github-color.png"
               :alt="project.title"
-              height="40"
-              width="40"
+              height="30"
+              width="30"
             />
           </a>
         </div>
@@ -116,6 +116,10 @@ export default {
         transition: 0.8s ease;
         overflow: hidden;
         width: 100%;
+
+        .featured-card__desc-p {
+          font-size: 0.9rem;
+        }
       }
 
       width: 43%;

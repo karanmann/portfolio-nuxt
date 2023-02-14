@@ -1,13 +1,16 @@
 <template>
   <div class="footer flex-center">
     <section class="flex-center">
-      <h4>Made with love by - Karan Mann <sup>ⓒ </sup></h4>
+      <h4>
+        Made with <span class="heart">❤️</span> by - Karan Mann
+        <sup>ⓒ </sup>
+      </h4>
     </section>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss">
