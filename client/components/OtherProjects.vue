@@ -26,16 +26,16 @@
             <img
               src="../assets/icons/live-ico.png"
               :alt="project.title"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
           <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">
             <img
               src="../assets/icons/github-ico.png"
               :alt="project.title"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
         </div>
@@ -75,6 +75,7 @@ export default {
 
     .other-project__card-image {
       width: 100%;
+      height: 50%;
     }
 
     .other-project__card-details {
@@ -82,7 +83,7 @@ export default {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 55%;
+      height: 50%;
 
       .other-project__links {
         text-align: right;

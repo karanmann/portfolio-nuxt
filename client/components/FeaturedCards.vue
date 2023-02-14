@@ -20,16 +20,16 @@
             <img
               src="../assets/icons/live-color.png"
               :alt="project.title"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
           <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">
             <img
               src="../assets/icons/github-color.png"
               :alt="project.title"
-              height="30"
-              width="30"
+              height="40"
+              width="40"
             />
           </a>
         </div>
@@ -110,8 +110,8 @@ export default {
         height: 0;
         top: 0;
         opacity: 0;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.7);
+        color: $yellow-maize;
+        background-color: rgba(0, 0, 0, 0.8);
         overflow-y: scroll;
         transition: 0.8s ease;
         overflow: hidden;
