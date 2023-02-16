@@ -6,6 +6,7 @@
     <project-showcase />
     <blog-posts />
     <contact-me />
+    <random-quotes />
     <the-footer />
   </div>
 </template>

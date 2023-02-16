@@ -1,11 +1,10 @@
 <template>
   <section id="home" class="home-hero flex-center">
     <div v-animate-on-scroll class="home-hero__content flex-center">
-      <h1 class="heading-primary">Hey, I'm Karan Mann.</h1>
+      <h1 class="heading-primary">Hello, I'm Karan Mann.</h1>
       <div class="home-hero__info">
         <p class="text-primary">
-          I am a frontend developer with a passion for coding, solving problems and to
-          create awesome and meaningful products for people to love ❤️. I also have a
+          A frontend developer with a passion for coding, solving problems and creating awesome and meaningful products for people to love ❤️. I also have a
           background in culinary arts 👨‍🍳."
         </p>
       </div>
@@ -80,7 +79,7 @@
     line-height: 1.6;
 
     .heading-primary {
-      font-size: 4rem;
+      font-size: 3rem;
       text-transform: uppercase;
     }
 

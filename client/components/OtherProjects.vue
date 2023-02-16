@@ -15,7 +15,7 @@
       />
       <div class="other-project__card-details">
         <h3>{{ project.title }}</h3>
-        <p>{{ project.desc }}</p>
+        <p class="other-project__card-details-desc">{{ project.desc }}</p>
         <ul class="card__pills-container">
           <li v-for="tech in project.techUsed" :key="tech" class="card__pills">
             {{ tech }}
@@ -75,7 +75,7 @@ export default {
 
     .other-project__card-image {
       width: 100%;
-      height: 50%;
+      height: 45%;
     }
 
     .other-project__card-details {
@@ -83,8 +83,7 @@ export default {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 50%;
-
+      height: 55%;
       .other-project__links {
         text-align: right;
         margin: 0 1rem;
