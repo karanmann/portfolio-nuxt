@@ -184,7 +184,7 @@ a:hover {
 .about-me,
 .projects,
 .blogs,
-.contact-me, 
+.contact-me,
 .random-quotes {
   padding: 7rem 18%;
   gap: 2rem;
@@ -216,8 +216,8 @@ a:hover {
 
 .before-enter {
   opacity: 0;
-  transform: translateY(100px);
-  transition: all 1.3s ease-out;
+  transform: translateY(20px);
+  transition: all 1s ease-out;
 }
 
 .enter {
