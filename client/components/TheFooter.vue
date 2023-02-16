@@ -1,7 +1,10 @@
 <template>
   <div class="footer flex-center">
-    <section class="flex-center">
-      <p>Made with love by - Karan Mann <sup>ⓒ </sup></p>
+    <section class="footer__section">
+      <p>
+        Made with <span>❤️</span> by Karan Mann
+        <sup>ⓒ</sup>
+      </p>
     </section>
   </div>
 </template>
@@ -14,5 +17,6 @@ export default {};
 .footer {
   background: $yellow-maize;
   padding: 2rem;
+  font-size: 2rem;
 }
 </style>

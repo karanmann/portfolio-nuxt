@@ -30,7 +30,7 @@
     },
     "title": "Netflix Clone",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
+      "Here I tried to recreate Netflix.",
     "techUsed": ["Next.js", "Typescript", "Tailwind CSS", "Firebase Database", "Firebase Authentication"],
     "githubLink": "https://github.com/karanmann/netflix-clone",
     "liveLink": "https://netflix-clone-hazel-pi.vercel.app/"
@@ -83,7 +83,7 @@
     },
     "title": "Foodex",
     "desc":
-      "A Food-lovers paradise.",
+      "A Food-lovers paradise. A commercial website for a food delivery service.",
     "techUsed": ["HTML", "CSS", "Javascript"],
     "githubLink": "https://github.com/karanmann/blog-site",
     "liveLink": "https://project-foodex.netlify.app"
@@ -101,7 +101,7 @@
     },
     "title": "#MB 2",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
+      "As a part of my final project at Hyper Island I created a website for a fictional brand called #MB.",
     "techUsed": ["Next.js", "SASS", "Stripe", "Strapi CMS", "Heroku", "Framer Motion", "Auth0 Authentication", "Heroku"],
     "githubLink": "https://github.com/karanmann/finalproject-hi",
     "liveLink": "https://mb2.vercel.app/"
@@ -119,7 +119,7 @@
     },
     "title": "Github Tracker",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
+      "A github repository tracker using the github API.",
     "techUsed": ["HTML", "CSS", "JavaScript"],
     "githubLink": "https://github.com/karanmann/github-tracker",
     "liveLink": "https://gitkaranmann.netlify.app/"
@@ -137,7 +137,7 @@
     },
     "title": "Edamam - Recipe Search",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
+      "A recipe search website using the Edamam API.",
     "techUsed": ["HTML", "CSS", "Javascript"],
     "githubLink": "https://github.com/karanmann/project-food-site",
     "liveLink": "https://edamam.netlify.app/"
@@ -155,7 +155,7 @@
     },
     "title": "Pizza Bot",
     "desc":
-      "Did you know that some food that are healthy for you are bad for others.",
+      "A pizza ordering bot using vanilla Javascript.",
     "techUsed": ["HTML", "CSS", "Javascript"],
     "githubLink": "https://github.com/karanmann/project-pizza-bot",
     "liveLink": "https://pizzabotmilano.netlify.app/"
