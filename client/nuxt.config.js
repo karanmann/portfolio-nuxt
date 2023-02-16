@@ -6,7 +6,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "HELLO, I'M KARAN MANN. A frontend developer with a passion for coding, solving problems and creating awesome and meaningful products for people to love ❤️. I also have a background in culinary arts 👨‍🍳." },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          "HELLO, I'M KARAN MANN. A frontend developer with a passion for coding, solving problems and creating awesome and meaningful products for people to love ❤️. I also have a background in culinary arts 👨‍🍳.",
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
@@ -37,6 +42,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/style-resources',
     '@nuxt/image',
+    '@nuxtjs/dotenv',
   ],
 
   styleResources: {
@@ -55,6 +61,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/i18n',
     '@nuxt/image',
+    '@nuxtjs/cloudinary',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -72,6 +79,13 @@ export default {
 
   i18n: {
     /* module options */
+  },
+
+  cloudinary: {
+    // Cloudinary configuration options
+    cloudName: 'karanmann',
+    useComponent: true,
+    apiSecret: process.env.CLOUDINARY_API_SECRET_KEY,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
