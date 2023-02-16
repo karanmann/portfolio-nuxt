@@ -10,7 +10,7 @@
         class="other-project__card-image"
         :src="project.imageDesktop.webp"
         alt=""
-        height="240"
+        height="216"
         width="320"
       />
       <div class="other-project__card-details">

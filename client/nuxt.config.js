@@ -2,11 +2,11 @@ export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'karan-nuxt-portfolio',
+    title: 'Karan Mann - Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: "HELLO, I'M KARAN MANN. A frontend developer with a passion for coding, solving problems and creating awesome and meaningful products for people to love ❤️. I also have a background in culinary arts 👨‍🍳." },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [

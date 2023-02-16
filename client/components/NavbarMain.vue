@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <a href="#" class="logo">
+    <a href="#home" class="logo">
       <img src="@/assets/images/portfolio/me.jpg" alt="karan mann" />
       <h2>KARAN MANN</h2>
     </a>

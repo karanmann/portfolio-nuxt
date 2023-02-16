@@ -19,6 +19,7 @@
   "Express",
   "MongoDB",
   "Firebase",
+  "Heroku",
   "Strapi CMS",
   "Stripe",
   "Digital Ocean",
