@@ -4,8 +4,8 @@
       <h2 class="title">Contact Me</h2>
       <div class="yellow-line"></div>
       <p class="paragraph">
-        Get in touch regarding any projects or opportunities you may have or
-        lets just talk about code.
+        Get in touch regarding any projects or opportunities you may have or lets just
+        talk about code.
       </p>
       <div v-animate-on-scroll class="contact-me__icon-container">
         <a href="https://github.com/karanmann" class="contact-me__icon">
@@ -62,6 +62,9 @@ export default {};
       &:hover {
         transform: scale(1.1);
       }
+    }
+    p {
+      font-weight: 600;
     }
   }
 }
