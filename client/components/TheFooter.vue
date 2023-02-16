@@ -17,6 +17,7 @@ export default {};
 .footer {
   background: $yellow-maize;
   padding: 2rem;
-  font-size: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 </style>
