@@ -17,8 +17,7 @@
       <div title="Github" class="home-hero__social">
         <a href="https://github.com/karanmann" class="home-hero__social-icon-link">
           <img
-            title="Github"
-            src="../assets/icons/github-ico.png"
+            src="@/assets/icons/github-ico.png"
             alt="icon"
             class="home-hero__social-icon"
           />
@@ -30,8 +29,7 @@
           class="home-hero__social-icon-link"
         >
           <img
-            title="Instagram"
-            src="../assets/icons/insta-ico.png"
+            src="@/assets/icons/insta-ico.png"
             alt="icon"
             class="home-hero__social-icon"
           />
@@ -43,8 +41,7 @@
           class="home-hero__social-icon-link"
         >
           <img
-            title="LinkedIn"
-            src="../assets/icons/linkedin-ico.png"
+            src="@/assets/icons/linkedin-ico.png"
             alt="icon"
             class="home-hero__social-icon"
           />
@@ -113,8 +110,8 @@
     .home-hero__social {
       .home-hero__social-icon-link {
         img {
-          height: 3rem;
-          width: 3rem;
+          height: 56px;
+          width: 56px;
           padding: 5px;
           border-radius: 50%;
         }

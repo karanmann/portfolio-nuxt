@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <a href="#" class="logo">
-      <img src="../assets/images/portfolio/me.png" alt="karan mann" />
+      <img src="@/assets/images/portfolio/me.jpg" alt="karan mann" />
       <h2>KARAN MANN</h2>
     </a>
     <div class="nav-links">

@@ -6,11 +6,11 @@
       v-animate-on-scroll
       class="other-project__card"
     >
-      <img
+      <nuxt-img
         class="other-project__card-image"
-        :src="project.imageDesktop.png"
+        :src="project.imageDesktop.webp"
         alt=""
-        height="200"
+        height="240"
         width="320"
       />
       <div class="other-project__card-details">

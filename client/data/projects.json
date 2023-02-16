@@ -3,12 +3,12 @@
     "id": 1001,
     "featured": true,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/oxfam.jpeg",
-      "png": "/images/projects/desktop/oxfam.png"
+      "jpg": "/images/projects/desktop/oxfam.jpg",
+      "webp": "/images/projects/desktop/oxfam.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/oxfam.jpeg",
-      "png": "/images/projects/mobile/oxfam.png"
+      "jpg": "/images/projects/mobile/oxfam.jpg",
+      "webp": "/images/projects/mobile/oxfam.webp"
     },
     "title": "Oxfam - Kortare Liv",
     "desc":
@@ -21,12 +21,12 @@
     "id": 1002,
     "featured": true,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/netflix.jpeg",
-      "png": "/images/projects/desktop/netflix.png"
+      "jpg": "/images/projects/desktop/netflix.jpg",
+      "webp": "/images/projects/desktop/netflix.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/netflix.jpeg",
-      "png": "/images/projects/mobile/netflix.png"
+      "jpg": "/images/projects/mobile/netflix.jpg",
+      "webp": "/images/projects/mobile/netflix.webp"
     },
     "title": "Netflix Clone",
     "desc":
@@ -39,12 +39,12 @@
     "id": 1003,
     "featured": true,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/starwars.jpeg",
-      "png": "/images/projects/desktop/starwars.png"
+      "jpg": "/images/projects/desktop/starwars.jpg",
+      "webp": "/images/projects/desktop/starwars.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/desktop/starwars.jpeg",
-      "png": "/images/projects/desktop/starwars.png"
+      "jpg": "/images/projects/desktop/starwars.jpg",
+      "webp": "/images/projects/desktop/starwars.webp"
     },
     "title": "Star Wars - Trust the process",
     "desc": "Star wars inspired Space shooter game.",
@@ -56,12 +56,12 @@
     "id": 1004,
     "featured": false,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/50days.jpeg",
-      "png": "/images/projects/desktop/50days.png"
+      "jpg": "/images/projects/desktop/50days.jpg",
+      "webp": "/images/projects/desktop/50days.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/desktop/50days.jpeg",
-      "png": "/images/projects/desktop/50days.png"
+      "jpg": "/images/projects/desktop/50days.jpg",
+      "webp": "/images/projects/desktop/50days.webp"
     },
     "title": "50 Days of Code",
     "desc":
@@ -74,12 +74,12 @@
     "id": 1005,
     "featured": false,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/foodex.jpeg",
-      "png": "/images/projects/desktop/foodex.png"
+      "jpg": "/images/projects/desktop/foodex.jpg",
+      "webp": "/images/projects/desktop/foodex.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/foodex.jpeg",
-      "png": "/images/projects/mobile/foodex.png"
+      "jpg": "/images/projects/mobile/foodex.jpg",
+      "webp": "/images/projects/mobile/foodex.webp"
     },
     "title": "Foodex",
     "desc":
@@ -92,12 +92,12 @@
     "id": 1006,
     "featured": true,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/mb2.jpeg",
-      "png": "/images/projects/desktop/mb2.png"
+      "jpg": "/images/projects/desktop/mb2.jpg",
+      "webp": "/images/projects/desktop/mb2.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/mb2.jpeg",
-      "png": "/images/projects/mobile/mb2.png"
+      "jpg": "/images/projects/mobile/mb2.jpg",
+      "webp": "/images/projects/mobile/mb2.webp"
     },
     "title": "#MB 2",
     "desc":
@@ -110,12 +110,12 @@
     "id": 1007,
     "featured": false,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/github.jpeg",
-      "png": "/images/projects/desktop/github.png"
+      "jpg": "/images/projects/desktop/github.jpg",
+      "webp": "/images/projects/desktop/github.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/github.jpeg",
-      "png": "/images/projects/mobile/github.png"
+      "jpg": "/images/projects/mobile/github.jpg",
+      "webp": "/images/projects/mobile/github.webp"
     },
     "title": "Github Tracker",
     "desc":
@@ -128,12 +128,12 @@
     "id": 1008,
     "featured": false,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/edamam.jpeg",
-      "png": "/images/projects/desktop/edamam.png"
+      "jpg": "/images/projects/desktop/edamam.jpg",
+      "webp": "/images/projects/desktop/edamam.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/edamam.jpeg",
-      "png": "/images/projects/mobile/edamam.png"
+      "jpg": "/images/projects/mobile/edamam.jpg",
+      "webp": "/images/projects/mobile/edamam.webp"
     },
     "title": "Edamam - Recipe Search",
     "desc":
@@ -146,12 +146,12 @@
     "id": 1009,
     "featured": false,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/pizzabot.jpeg",
-      "png": "/images/projects/desktop/pizzabot.png"
+      "jpg": "/images/projects/desktop/pizzabot.jpg",
+      "webp": "/images/projects/desktop/pizzabot.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/pizzabot.jpeg",
-      "png": "/images/projects/mobile/pizzabot.png"
+      "jpg": "/images/projects/mobile/pizzabot.jpg",
+      "webp": "/images/projects/mobile/pizzabot.webp"
     },
     "title": "Pizza Bot",
     "desc":
@@ -164,12 +164,12 @@
     "id": 1010,
     "featured": false,
     "imageDesktop": {
-      "jpg": "/images/projects/desktop/happythoughts.jpeg",
-      "png": "/images/projects/desktop/happythoughts.png"
+      "jpg": "/images/projects/desktop/happythoughts.jpg",
+      "webp": "/images/projects/desktop/happythoughts.webp"
     },
     "imageMobile": {
-      "jpg": "/images/projects/mobile/happythoughts.jpeg",
-      "png": "/images/projects/mobile/happythoughts.png"
+      "jpg": "/images/projects/mobile/happythoughts.jpg",
+      "webp": "/images/projects/mobile/happythoughts.webp"
     },
     "title": "Happy Thoughts",
     "desc": "I here have made a Twitter Clone using REACT.js where I can fetch messages posted on Heroku/MongoDB and also post them and add likes to the posts.",

@@ -1,6 +1,12 @@
 <template>
   <div v-animate-on-scroll class="blog-card">
-    <img :src="image" :alt="title" class="blog-card__image" />
+    <nuxt-img
+      :src="image.jpg"
+      width="288"
+      height="187"
+      :alt="title"
+      class="blog-card__image"
+    />
     <div class="blog-card__description">
       <h3 class="blog-card__description-title">{{ title }}</h3>
       <p class="blog-card__description-text">{{ desc }}</p>
@@ -14,10 +20,22 @@
 <script>
 export default {
   props: {
-    title: { default: "", type: String },
-    image: { default: "", type: String },
-    desc: { default: "", type: String },
-    url: { default: "", type: String },
+    title: {
+      type: String,
+      required: true,
+    },
+    desc: {
+      type: String,
+      required: true,
+    },
+    url: {
+      type: String,
+      required: true,
+    },
+    image: {
+      type: Object,
+      required: true,
+    },
   },
 };
 </script>
@@ -34,7 +52,7 @@ export default {
   width: 320px;
 
   .blog-card__image {
-    height: 40%;
+    object-fit: fill;
   }
 
   .blog-card__description {
