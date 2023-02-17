@@ -102,7 +102,7 @@
     "title": "#MB 2",
     "desc":
       "As a part of my final project at Hyper Island I created a website for a fictional brand called #MB.",
-    "techUsed": ["Next.js", "SASS", "Stripe", "Strapi CMS", "Heroku", "Framer Motion", "Auth0 Authentication", "Heroku"],
+    "techUsed": ["Next.js", "SASS", "Stripe", "Strapi CMS", "Framer Motion", "Auth0 Authentication", "Heroku"],
     "githubLink": "https://github.com/karanmann/finalproject-hi",
     "liveLink": "https://mb2.vercel.app/"
   },
