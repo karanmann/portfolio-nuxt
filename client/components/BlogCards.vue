@@ -10,8 +10,8 @@
     <div class="blog-card__description">
       <h3 class="blog-card__description-title">{{ title }}</h3>
       <p class="blog-card__description-text">{{ desc }}</p>
-      <a :href="url" class="blog-card__description-link" target="_blank">
-        <button class="blog-card__description-link-button">Read More</button>
+      <a :href="url" class="blog-card__description-link" target="_blank" :alt="title">
+        <button class="blog-card__description-link-button">Read Blog</button>
       </a>
     </div>
   </div>
