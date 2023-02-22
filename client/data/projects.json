@@ -33,7 +33,7 @@
       "Here I tried to recreate Netflix.",
     "techUsed": ["Next.js", "Typescript", "Tailwind CSS", "Firebase Database", "Firebase Authentication"],
     "githubLink": "https://github.com/karanmann/netflix-clone",
-    "liveLink": "https://netflix-clone-hazel-pi.vercel.app/"
+    "liveLink": "https://netflix-clone-next-tailwind.vercel.app/"
   },
   {
     "id": 1003,
