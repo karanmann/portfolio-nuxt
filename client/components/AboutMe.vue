@@ -95,7 +95,7 @@ export default {
       background-color: rgb(183, 183, 183);
       padding: 0.5rem 0.7rem;
       margin: 0.2rem 0.4rem 0.2rem 0;
-      width: fit-content;
+      width: 100% auto;
       color: black;
       border-radius: 7px;
       font-size: 14px;
