@@ -37,7 +37,7 @@
           <p
             v-for="(skill, index) in skills"
             :key="index"
-            class="grey-pill paragraph-small"
+            class="grey-pill about-me__bottom-container-right-pills-font"
           >
             {{ skill }}
           </p>
@@ -90,6 +90,15 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    .about-me__bottom-container-right-pills-font {
+      font-size: 10;
+      @media (min-width: $tablet) {
+        font-size: 11;
+      }
+      @media (min-width: $desktop) {
+        font-size: 12;
+      }
+    }
   }
 }
 </style>
