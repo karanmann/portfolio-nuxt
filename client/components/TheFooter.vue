@@ -19,5 +19,10 @@ export default {};
   padding: 2rem;
   font-size: 1.3rem;
   font-weight: 600;
+
+  .footer__section {
+    width: 80%;
+    text-align: center;
+  }
 }
 </style>

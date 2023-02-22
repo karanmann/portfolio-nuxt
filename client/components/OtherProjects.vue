@@ -72,7 +72,11 @@ export default {
     height: 30rem;
 
     @media (min-width: $tablet) {
-      width: 20rem;
+      width: 45%;
+    }
+
+    @media (min-width: $desktop) {
+      width: 31%;
     }
 
     .other-project__card-image {

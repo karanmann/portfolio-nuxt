@@ -48,13 +48,21 @@ export default {
   flex-direction: column;
   background: $card_white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  padding: 1rem;
+  padding: 0.5rem;
   opacity: 0.9;
   height: 500px;
-  width: 320px;
+  width: 90%;
+
+  @media (min-width: $tablet) {
+    width: 45%;
+  }
+  @media (min-width: $desktop) {
+    width: 31%;
+  }
 
   .blog-card__image {
     object-fit: fill;
+    width: 100%;
   }
 
   .blog-card__description {
@@ -62,7 +70,7 @@ export default {
     height: 50%;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     gap: 1rem;
 
     .blog-card__description-link {
