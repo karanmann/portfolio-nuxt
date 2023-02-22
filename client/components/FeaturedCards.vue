@@ -71,7 +71,7 @@ export default {
 
     .featured-card__image {
       width: 100%;
-      height: 35%;
+      height: 40%;
       overflow: hidden;
       object-fit: cover;
       position: relative;
