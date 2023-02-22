@@ -1,12 +1,14 @@
 <template>
   <div v-animate-on-scroll class="blog-card">
-    <nuxt-img
-      :src="image.jpg"
-      width="288"
-      height="187"
-      :alt="title"
-      class="blog-card__image"
-    />
+    <a :href="url" target="_blank" :alt="title">
+      <nuxt-img
+        :src="image.jpg"
+        width="288"
+        height="187"
+        :alt="title"
+        class="blog-card__image"
+      />
+    </a>
     <div class="blog-card__description">
       <h3 class="blog-card__description-title">{{ title }}</h3>
       <p class="blog-card__description-text">{{ desc }}</p>
@@ -68,6 +70,7 @@ export default {
       right: 10px;
       bottom: -40px;
       button {
+        cursor: pointer;
         background: none;
         border: 1px solid $yellow;
         font-weight: 700;

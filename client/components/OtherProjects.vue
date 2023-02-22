@@ -6,13 +6,15 @@
       v-animate-on-scroll
       class="other-project__card"
     >
-      <nuxt-img
-        class="other-project__card-image"
-        :src="project.imageDesktop.webp"
-        alt=""
-        height="216"
-        width="320"
-      />
+      <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
+        <nuxt-img
+          class="other-project__card-image"
+          :src="project.imageDesktop.webp"
+          alt=""
+          height="216"
+          width="320"
+        />
+      </a>
       <div class="other-project__card-details">
         <h3>{{ project.title }}</h3>
         <p class="other-project__card-details-desc">{{ project.desc }}</p>

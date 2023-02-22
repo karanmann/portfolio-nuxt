@@ -6,11 +6,13 @@
       v-animate-on-scroll
       class="featured-card"
     >
-      <nuxt-img
-        :src="project.imageDesktop.webp"
-        alt="project"
-        class="featured-card__image"
-      />
+      <a :href="project.liveLink" target="_blank" rel="noopener noreferrer">
+        <nuxt-img
+          :src="project.imageDesktop.webp"
+          alt="project"
+          class="featured-card__image"
+        />
+      </a>
       <div class="featured-card__desc">
         <h2>{{ project.title }}</h2>
         <p class="featured-card__desc-p">{{ project.desc }}</p>
