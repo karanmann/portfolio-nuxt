@@ -92,6 +92,7 @@ export default {
     flex-wrap: wrap;
     .about-me__bottom-container-right-pills-font {
       font-size: 10;
+      font-weight: 400;
       @media (min-width: $tablet) {
         font-size: 11;
       }
