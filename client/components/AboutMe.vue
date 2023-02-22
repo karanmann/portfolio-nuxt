@@ -92,8 +92,8 @@ export default {
     flex-wrap: wrap;
     justify-content: flex-start;
     .about-me__bottom-container-right-pills-font {
-      font-size: 10px;
-      font-weight: 400;
+      font-size: 11px;
+      font-weight: 600;
       @media (min-width: $desktop) {
         font-size: 12px;
       }
