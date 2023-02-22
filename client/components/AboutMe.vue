@@ -98,7 +98,7 @@ export default {
       width: 100% auto;
       color: black;
       border-radius: 7px;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 400;
       @media (min-width: $desktop) {
         font-size: 16px;
