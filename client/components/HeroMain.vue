@@ -109,7 +109,7 @@
     background: $yellow;
     display: none;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $desktop) {
       display: flex;
     }
 

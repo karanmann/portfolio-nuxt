@@ -90,11 +90,12 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
     .about-me__bottom-container-right-pills-font {
       font-size: 10;
       font-weight: 400;
       @media (min-width: $tablet) {
-        font-size: 11;
+        font-size: 10;
       }
       @media (min-width: $desktop) {
         font-size: 12;
