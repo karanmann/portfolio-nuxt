@@ -4,8 +4,9 @@
       <h1 class="heading-primary">Hello, I'm Karan Mann.</h1>
       <div class="home-hero__info">
         <p class="text-primary">
-          A frontend developer with a passion for coding, solving problems and creating awesome and meaningful products for people to love ❤️. I also have a
-          background in culinary arts 👨‍🍳."
+          A frontend developer with a passion for coding, solving problems and creating
+          awesome and meaningful products for people to love ❤️. I also have a background
+          in culinary arts 👨‍🍳."
         </p>
       </div>
       <div class="home-hero__cta">
@@ -14,7 +15,11 @@
     </div>
     <div class="home-hero__socials">
       <div title="Github" class="home-hero__social">
-        <a href="https://github.com/karanmann" class="home-hero__social-icon-link">
+        <a
+          href="https://github.com/karanmann"
+          class="home-hero__social-icon-link"
+          target="_blank"
+        >
           <img
             src="@/assets/icons/github-ico.png"
             alt="icon"
@@ -26,6 +31,7 @@
         <a
           href="https://www.instagram.com/frontendchef/"
           class="home-hero__social-icon-link"
+          target="_blank"
         >
           <img
             src="@/assets/icons/insta-ico.png"
@@ -38,6 +44,7 @@
         <a
           href="https://www.linkedin.com/in/karanmann84/"
           class="home-hero__social-icon-link"
+          target="_blank"
         >
           <img
             src="@/assets/icons/linkedin-ico.png"

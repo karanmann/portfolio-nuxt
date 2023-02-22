@@ -8,7 +8,7 @@
         talk about code.
       </p>
       <div v-animate-on-scroll class="contact-me__icon-container">
-        <a href="https://github.com/karanmann" class="contact-me__icon">
+        <a href="https://github.com/karanmann" class="contact-me__icon" target="_blank">
           <img
             src="../assets/icons/github-color.png"
             alt="Github Link"
@@ -17,7 +17,11 @@
           />
           <p>Github</p>
         </a>
-        <a href="https://www.instagram.com/frontendchef/" class="contact-me__icon">
+        <a
+          href="https://www.instagram.com/frontendchef/"
+          class="contact-me__icon"
+          target="_blank"
+        >
           <img
             src="../assets/icons/instagram-color.png"
             alt="Instagram Link"
@@ -26,7 +30,11 @@
           />
           <p>Instagram</p>
         </a>
-        <a href="https://www.linkedin.com/in/karanmann84/" class="contact-me__icon">
+        <a
+          href="https://www.linkedin.com/in/karanmann84/"
+          class="contact-me__icon"
+          target="_blank"
+        >
           <img
             src="../assets/icons/linkedin-color.png"
             alt="Linkedin Link"
