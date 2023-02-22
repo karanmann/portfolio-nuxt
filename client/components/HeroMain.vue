@@ -92,6 +92,11 @@
 
     .home-hero__info {
       width: 80vw;
+      .text-primary {
+        font-size: 25px;
+        text-align: center;
+        line-height: 1.6;
+      }
     }
   }
 
