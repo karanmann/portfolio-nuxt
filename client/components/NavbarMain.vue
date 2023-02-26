@@ -108,7 +108,7 @@ export default {
   .nav-links {
     display: none;
 
-    @media (min-width: $desktop) {
+    @media (min-width: $tablet) {
       display: flex;
       flex-direction: row;
       width: 450px;
@@ -123,7 +123,7 @@ export default {
     display: flex;
     flex-direction: row;
 
-    @media (min-width: $desktop) {
+    @media (min-width: $tablet) {
       display: none;
     }
 
