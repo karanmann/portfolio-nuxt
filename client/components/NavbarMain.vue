@@ -190,22 +190,20 @@ export default {
     .menu {
       position: absolute;
       width: 100vw;
+      height: 100vh;
       right: -20px;
       top: 60px;
-      padding: 50px;
       background: $yellow;
       color: white;
       list-style-type: none;
-      transform-origin: 0% 0%;
-      transform: translate(-150%, 0);
+      transform-origin: 0% 100%;
+      transform: translate(-110%, 0);
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
       z-index: 99;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
-      gap: 20%;
 
       a {
         color: $primary;
