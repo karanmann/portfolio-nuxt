@@ -39,17 +39,6 @@
               />
             </a>
             <a
-              href="https://www.instagram.com/frontendchef/"
-              class="home-hero__social-icon-link"
-            >
-              <img
-                title="Instagram"
-                src="../assets/icons/insta-ico.png"
-                alt="icon"
-                class="home-hero__social-icon"
-              />
-            </a>
-            <a
               href="https://www.linkedin.com/in/karanmann84/"
               class="home-hero__social-icon-link"
             >

@@ -18,19 +18,6 @@
           <p>Github</p>
         </a>
         <a
-          href="https://www.instagram.com/frontendchef/"
-          class="contact-me__icon"
-          target="_blank"
-        >
-          <img
-            src="../assets/icons/instagram-color.png"
-            alt="Instagram Link"
-            height="60"
-            width="60"
-          />
-          <p>Instagram</p>
-        </a>
-        <a
           href="https://www.linkedin.com/in/karanmann84/"
           class="contact-me__icon"
           target="_blank"
